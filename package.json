@@ -1,0 +1,19 @@
+{
+  "name": "personal-tracker",
+  "version": "1.0.0",
+  "description": "Simple progress tracker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelWMills/personal-Tracker"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.8"
+  }
+}
