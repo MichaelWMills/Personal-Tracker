@@ -8,7 +8,9 @@
 	</head>
 	<body>
 		<div ng-controller='GoalController'>
-			<p>{{message}}</p>
+			<ul>
+				<li ng-repeat='goal in goals'>{{goal}}</li>
+			</ul>
 		</div>
 	</body>
 </html>
