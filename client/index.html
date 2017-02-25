@@ -6,10 +6,9 @@
 		<script src='app/app.js'></script>
 		<link href='css/styles.css' rel='stylesheet' type='text/css'>
 	</head>
-	<body ng-init='goal=["1", "3", "5"]'>
-		<input type='text' ng-model='goalEntry' placeholder='chop liver' />
-		<ul>
-			<li ng-repeat='currentProgress in goal'>{{currentProgress}}</li>
-		</ul>
+	<body>
+		<div ng-controller='GoalController'>
+			<p>{{message}}</p>
+		</div>
 	</body>
 </html>
