@@ -3,9 +3,10 @@
 	<head>
 		<title>Progress Tracker</title>
 		<script src="./angular/angular.js"></script>
+		<link href="./css/styles.css" rel="stylesheet" type="text/css">
 	</head>
-	<body>
+	<body ng-init="color='orange'">
 		<input type="text" ng-model="goal" placeholder="enter a goal to track" />
-		<p>Your goal is {{goal}}</p>
+		<p class="{{color}}">Your goal is to {{goal}}</p>
 	</body>
 </html>
