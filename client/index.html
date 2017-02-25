@@ -2,11 +2,11 @@
 <html lang="en" ng-app>
 	<head>
 		<title>Progress Tracker</title>
-		<script src="./angular/angular.js"></script>
-		<link href="./css/styles.css" rel="stylesheet" type="text/css">
+		<script src="angular/angular.js"></script>
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
 	</head>
 	<body ng-init="color='orange'">
 		<input type="text" ng-model="goal" placeholder="enter a goal to track" />
-		<p class="{{color}}">Your goal is to {{goal}}</p>
+		<p class="{{color}}">An example of using an ng-init directive to reference a CSS class. Not normally done with ng-init. This element has a class called "{{color}}". Since the directive ng-init="color='orange'", it references the .orange class in styles.css and turns this text orange.</p>
 	</body>
 </html>
