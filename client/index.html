@@ -7,7 +7,9 @@
 		<link href='css/styles.css' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header ng-include src='"header.html"'></header>
+		<header>
+			<ng-include src="'header.html'"></ng-include>
+		</header>
 		<div ng-controller='GoalController'>
 			<ul>
 				<li ng-repeat='goal in plan'>{{goal.name}}</li>
